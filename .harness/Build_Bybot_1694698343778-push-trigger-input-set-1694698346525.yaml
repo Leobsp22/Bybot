@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Bybot_1694698343778-push-trigger-input-set
+  identifier: Build_Bybot_1694698343778pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_Bybot_1694698343778
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
