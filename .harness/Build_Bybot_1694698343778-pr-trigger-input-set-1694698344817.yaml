@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Bybot_1694698343778-pr-trigger-input-set
+  identifier: Build_Bybot_1694698343778prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_Bybot_1694698343778
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
